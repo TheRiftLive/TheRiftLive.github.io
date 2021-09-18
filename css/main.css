@@ -4,34 +4,36 @@ body {
     background: #f2f6e9;
 }
 
-.navbar {
-    background:#6ab446;
-}
-
-.nav-link,
-.navbar-brand {
-    color: #fff;
-    cursor: pointer;
-}
-
-.nav-link {
-    margin-right: 1em !important;
-}
-
-.nav-link:hover {
-    color: #000;
-}
-
-.navbar-collapse {
-    justify-content: flex-end;
-}
-
 .header {
-    background-image: url('../images/header-background.jpg');
+    background-image: url('../images/hero-image.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
     height: 600px;
+}
+
+.bg-text {
+    background-color: rgba(0,0,0, 0.75);
+    color: #E8EDDF;
+    font-weight: bold;
+    border: 3px solid #CFDBD5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.bg-image {
+    background-image: url("../images/hero-image.jpg");
+    filter: blur(8px);
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .description {
@@ -50,13 +52,6 @@ body {
 	color: #fff;
 	font-size: 1.3rem;
 	line-height: 1.5;
-}
-
-.description button {
-    border:1px solid #6ab446;
-    background:#6ab446;
-    border-radius: 0;
-    color:#fff;
 }
 
 .description button:hover {
@@ -83,8 +78,8 @@ body {
 }
 
 .page-footer {
-    background-color: #222;
-    color: #ccc;
+    background-color: #242423;
+    color: #CFDBD5;
     padding: 60px 0 30px;
 }
 
@@ -93,6 +88,16 @@ body {
     padding: 40px 0;
 }
 
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.center {
+    text-align: center;
+    word-wrap: unset;
+}
 @media (max-width: 575.98px) {
     .description {
         left: 0;
