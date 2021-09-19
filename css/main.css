@@ -36,30 +36,6 @@ body {
     background-size: cover;
 }
 
-.description {
-	left: 50%;
-	position: absolute;
-	top: 45%;
-	transform: translate(-50%, -55%);
-	text-align: center;
-}
-
-.description h1 {
-	color: #000000;
-}
-
-.description p {
-	color: #fff;
-	font-size: 1.3rem;
-	line-height: 1.5;
-}
-
-.description button:hover {
-	border:1px solid #fff;
-    background:#fff;
-    color:#000;
-}
-
 .features .form-control,
 .features input {
 	border-radius: 0;
@@ -75,6 +51,10 @@ body {
 .features .btn:hover {
     background-color: #333;
     border: 1px solid #333;
+}
+
+.features p {
+    color: #E8EDDF;
 }
 
 .page-footer {
@@ -98,6 +78,21 @@ body {
     text-align: center;
     word-wrap: unset;
 }
+
+.center h2 {
+    color: #F5CB5C;
+}
+
+.center hr {
+    width: 40%;
+    background-color: #F5CB5C;
+}
+
+.features hr {
+    width: 40%;
+    background-color: #F5CB5C;
+}
+
 @media (max-width: 575.98px) {
     .description {
         left: 0;
